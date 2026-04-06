@@ -121,21 +121,6 @@ font-weight: 500;
     width: 100%;
 }
 
-@media (max-width: 768px) {
-    nav {
-        flex-wrap: wrap;
-        padding: 10px 15px;
-    }
-
-    .nav-links {
-        flex-wrap: wrap;
-        gap: 1rem;
-        justify-content: center;
-        width: 100%;
-        padding-left:20px;
-    }
-}
-
 .hero {
     height: 100vh;
     position: relative;
@@ -877,7 +862,7 @@ html{
 
 @media (max-width: 500px) {
     .footer-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         text-align: center;
     }
 
