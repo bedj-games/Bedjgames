@@ -12,6 +12,10 @@ body{
     overflow-x: hidden;
     padding-top: 50px;
 }
+html, body{
+    overflow: hidden;
+    width:100%;
+}
 
  /* Custom Cursor */
 .cursor {
