@@ -356,8 +356,7 @@ section {
     .featured-games,
     .about,
     .contact {
-        width:100%;
-        max-width: 100%;
+        width:110%
     }
 }
 
