@@ -38,6 +38,12 @@ body{
     transform: translate(-50%, -50%);
 }
 
+@media (max-width: 768px) {
+    .cursor, .cursor-follower {
+        display: none;
+    }
+}
+
 nav{
     position: fixed;
     top: 0;
@@ -119,6 +125,19 @@ font-weight: 500;
 
 .nav-links a:hover::after {
     width: 100%;
+}
+@media (max-width: 768px) {
+    nav {
+        flex-wrap: wrap;
+        padding: 10px 15px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        width: 100%;
+    }
 }
 
 .hero {
@@ -689,7 +708,6 @@ textarea.form-input {
     align-items: center;
 }
 
-/* MOBILE FIX */
 @media (max-width: 768px) {
     .about-content {
         flex-direction: column;
