@@ -356,8 +356,7 @@ section {
     .featured-games,
     .about,
     .contact {
-        padding-left: 15px;
-        padding-right: 15px;
+        min-width:100%;
     }
 }
 
