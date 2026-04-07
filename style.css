@@ -351,6 +351,15 @@ section {
     height: 3px;
     background: linear-gradient(90deg, transparent, #070090, transparent);
 }
+@media (max-width: 768px) {
+    section,
+    .featured-games,
+    .about,
+    .contact {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
 
 .games-grid {
     display: grid;
