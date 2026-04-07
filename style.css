@@ -38,7 +38,7 @@ body{
     transform: translate(-50%, -50%);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .cursor, .cursor-follower {
         display: none;
     }
@@ -126,7 +126,7 @@ font-weight: 500;
 .nav-links a:hover::after {
     width: 100%;
 }
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     nav {
         flex-wrap: wrap;
         padding: 10px 15px;
@@ -274,7 +274,7 @@ font-weight: 500;
     border: 1px solid white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .cta-buttons {
         flex-direction: column;
         gap: 10px;
@@ -351,12 +351,12 @@ section {
     height: 3px;
     background: linear-gradient(90deg, transparent, #070090, transparent);
 }
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     section,
     .featured-games,
     .about,
     .contact {
-        width:100vh;
+        width:100%;
         max-width: 100%;
     }
 }
@@ -508,7 +508,7 @@ section {
 }
 
 /* Responsive adjustments */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .game-card::before {
         display: none;
     }
@@ -618,7 +618,7 @@ section {
     padding: 30px; 
 }
 /* MOBILE FIX */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .contact-container {
         flex-direction: column;
     }
@@ -717,7 +717,7 @@ textarea.form-input {
     align-items: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .about-content {
         flex-direction: column;
         text-align: center;
@@ -881,13 +881,13 @@ html{
 }
 
 /* ===== RESPONSIVE ===== */
-@media (max-width: 900px) {
+@media (max-width: 600px) {
     .footer-container {
         grid-template-columns: 1fr;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .footer-container {
         grid-template-columns: 1fr 1fr;
         text-align: center;
