@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bakunda vicent">
+    <meta name="description" content="A tanzanian indie game company founded to build worlds players can belong to">
+    <meta name="keywords" content="gamedev, Tanzania game company, indie game, bedjgames">
+    <title>Bedjgames</title>
+    <link rel="icon" type="imge/png"  href="Images/bedjlogo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- floating background shapes (same as original) -->
+    <div class="bg-shapes"></div>
+
+    <!-- Navbar (bootstrap compatible) -->
+    <nav class="nav" id="mainNav">
+        <div class="d-flex align-items-center nav-brand">
+            <a href="#home" class="d-flex align-items-center text-decoration-none">
+                <img src="Images/bedjlogo.png" alt="logo">
+                <span>BedjGames</span>
+            </a>
+        </div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#games">Games</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- HERO with particles -->
+        <section id="home">
+            <div class="hero">
+                <div id="particles-js"></div>
+                <div class="hero-content">
+                    <img src="Images/bedjlogo.png" alt="BedjGames">
+                    <h1 class="hero-title"><span class="gradient-text">BEDJGAMES</span></h1>
+                    <p class="hero-subtitle">Welcome home, gamer. A place to belong.</p>
+                    <div class="d-flex flex-wrap gap-3 justify-content-center">
+                        <a href="#games" class="btn-primary-custom">Explore Games</a>
+                        <a href="#contact" class="btn-outline-light-custom">Join Journey</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURED GAMES (bootstrap grid) -->
+        <section id="games" class="featured-games py-5">
+            <div class="container">
+                <h3 class="section-title">Featured Games</h3>
+                <div class="games-grid">
+                    <!-- Dark House Unveiled -->
+                    <a href="https://bedj.itch.io/dark-house-unveiled" target="_blank" class="card-link">
+                        <div class="game-card">
+                            <div class="game-image">
+                                <img src="Images/DARKHOUSE UNVEILED POSTER .png" alt="Dark House Unveiled">
+                            </div>
+                            <div class="game-info">
+                                <h3 class="game-title">DARK HOUSE UNVEILED</h3>
+                                <p class="game-description">A psychological horror experience where darkness holds secrets. Explore the mysteries of an abandoned mansion where every shadow tells a story.</p>
+                                <div class="game-tags">
+                                    <span class="tag">Horror</span>
+                                    <span class="tag">Psychological</span>
+                                    <span class="tag">Single-player</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- IVS Racer -->
+                    <a href="https://bedj.itch.io/ivs-racer" target="_blank" class="card-link">
+                        <div class="game-card">
+                            <div class="game-image">
+                                <img src="Images/Ivs icon.png" alt="IVS Racer">
+                            </div>
+                            <div class="game-info">
+                                <h3 class="game-title">IVS RACER</h3>
+                                <p class="game-description">Its a game, you know for racing type shii.</p>
+                                <div class="game-tags">
+                                    <span class="tag">Racing</span>
+                                    <span class="tag">Multiplayer</span>
+                                    <span class="tag">Arcade</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Upcoming Project Retrace -->
+                    <div class="game-card">
+                        <div class="game-image">
+                            <img src="Images/coming so.jpg" alt="Mystery Project">
+                        </div>
+                        <div class="game-info">
+                            <h3 class="game-title">Retrace</h3>
+                            <p class="game-description">Skate endlessly, master slick moves, and build your own style in Retrace cz every run is a chance to go further.</p>
+                            <div class="game-tags">
+                                <span class="tag">Endless runner</span>
+                                <span class="tag">sick moves</span>
+                                <span class="tag">Coming Soon</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT section (responsive with row/col) -->
+        <section id="about">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6">
+                        <h2 class="section-title text-start" style="text-align: left !important;">Our Story</h2>
+                        <p class="about-text">
+                            Founded with a vision to build worlds players can truly belong to, <span style="color: rgb(71, 71, 255);">Bedj Games</span> is an independent <span style="color: rgb(71, 71, 255);">Tanzanian game studio</span> dedicated to creating experiences that feel like home. We believe games are more than entertainment, they are places where players can explore, connect, and create memories. <br>
+                            From the haunting mystery of <span style="color: rgb(255, 80, 80);">Dark House Unveiled</span> to the many worlds yet to come, each project reflects our commitment to creativity, atmosphere, and meaningful gameplay. <br> At Bedj, every game is an invitation.
+                            <br><br>
+                            <span style="text-shadow: 1px 1px 30px blue; color: blue;">Welcome home, Gamer...</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="stats">
+                            <div class="stat-item">
+                                <div class="stat-number">2</div>
+                                <div class="stat-label">Games Released</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">50K+</div>
+                                <div class="stat-label">Happy Players</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">2026</div>
+                                <div class="stat-label">Next Release</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT section with formspree & bootstrap grid -->
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="contact-card h-100">
+                            <h3 class="fw-bold mb-3" style="color: #1700c3;">Let's Create Something Amazing</h3>
+                            <p class="about-text" style="margin-bottom: 1.5rem;">
+                                Whether you're a publisher, potential team member, or just want to say hello, we'd love to hear from you!
+                            </p>
+                            <div class="contact-details">
+                                <div class="contact-item">
+                                    <i class="bi bi-envelope-fill"></i>
+                                    <span>bedj@Bedjgames.com</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="bi bi-geo-alt-fill"></i>
+                                    <span>Dar-es-salaam, TZ</span>
+                                </div>
+                            </div>
+                            <div class="social-links">
+                                       <a href="https://itch.io/profile/bedj" class="social-link" target="_blank"><img src="Images/Itchio.png" style="width: 35px; height: 35px;"></a>
+                    <a href="http://www.youtube.com/@bedjgames" class="social-link" style="color: rgb(0, 0, 0);" target="_blank"><i class="bi bi-youtube"></i></a>
+                    <a href="https://www.tiktok.com/@bedjgames" class="social-link" style="color: black;" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+  <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+</svg></a>
+                    <a href="https://www.instagram.com/bedjgames" class="social-link" style="color: black;" target="_blank"><i class="bi bi-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="contact-card">
+                            <form action="https://formspree.io/f/xgopazqk" method="POST">
+                                <input type="text" name="name" class="form-control-custom" placeholder="Your Name" required>
+                                <input type="email" name="email" class="form-control-custom" placeholder="Your Email" required>
+                                <input type="text" name="subject" class="form-control-custom" placeholder="Subject">
+                                <textarea name="message" class="form-control-custom" rows="4" placeholder="Your Message" required></textarea>
+                                <button type="submit" class="btn-primary-custom w-100 border-0" style="padding: 0.8rem;">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <h3 class="logo" style="font-size: 1.8rem;">BEDJ GAMES</h3>
+                    <p class="text-secondary">Crafting immersive experiences</p>
+                </div>
+                <div class="col-md-2 col-6">
+                    <h4>Explore</h4>
+                    <a href="#home" class="d-block mb-2">Home</a>
+                    <a href="#games" class="d-block mb-2">Games</a>
+                    <a href="#about" class="d-block mb-2">About</a>
+                    <a href="#contact" class="d-block mb-2">Contact</a>
+                </div>
+                <div class="col-md-2 col-6">
+                    <h4>Follow</h4>
+                    <a href="https://itch.io/profile/bedj" target="_blank" class="d-block mb-2">itch.io</a>
+                    <a href="http://www.youtube.com/@bedjgames" target="_blank" class="d-block mb-2">YouTube</a>
+                    <a href="https://www.tiktok.com/@bedjgames" target="_blank" class="d-block mb-2">TikTok</a>
+                    <a href="https://www.instagram.com/bedjgames" target="_blank" class="d-block mb-2">Instagram</a>
+                </div>
+                <div class="col-md-2 col-6">
+                    <h4>Legal</h4>
+                    <a href="privacy.html" class="d-block mb-2">Privacy Policy</a>
+                    <a href="terms.html" class="d-block mb-2">Terms of Service</a>
+                </div>
+                <div class="col-md-2 col-6">
+                    <h4>Contact</h4>
+                    <p class="mb-1 text-secondary">bedj@bedjgames.com</p>
+                    <p class="text-secondary">Dar es Salaam, TZ</p>
+                </div>
+            </div>
+            <div class="footer-bottom text-center pt-4 mt-4 border-top border-secondary">
+                <p class="mb-0">© 2026 Bedj Games. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
